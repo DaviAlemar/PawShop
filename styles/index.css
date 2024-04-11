@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;   
+}
+:root{
+    --corAzul:#6EB3D0;
+    --corVerde:#B6D7A8;
+    --corRosa:#F7B6D2;
+    --corLaranja:#F4A623;
+    --corPreta:#000000;
+    --corBranca:#FFFFFF;
+}
+header nav{
+    background-color: var(--corAzul);
+}
+.color-button{
+    background-color: #F7B6D2;
+    border: none;
+}
+.color-button:hover{
+    background-color: #ff6dac;
+}
+
+.bg-bluePersonal{
+    background-color: #6EB3D0;
+    text-align: center;
+}
+
+form .bg-bluePersonal:hover{
+    background-color: #1da7e2;
+    color:white;
+}
